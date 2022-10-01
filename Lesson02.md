@@ -13,3 +13,7 @@
             - be explicitly self-closed
                 <input name="img"/>
                 cannot leave off the / or will get syntax error
+
+    Note
+        Since JSX is closer to JavaScript than to HTML, React DOM uses camelCase property naming convention instead of HTML attribute names.
+        For example, "class" becomes "className" in JSX, and "tabindex" becomes "tabIndex".
