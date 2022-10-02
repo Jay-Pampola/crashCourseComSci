@@ -34,4 +34,9 @@
         - State
         - Lifecycle Method
     - With the introduction of HOOKS, we can now write full-featured function  components
-    - This course covers HooksS
+    - This course covers Hooks
+
+Always start component names with a capital letter.
+React treats components starting with lowercase letters as DOM tags. For example, <div /> represents an HTML div tag, but <Welcome /> represents a component and requires Welcome to be in scope.
+
+Extracting components might seem like grunt work at first, but having a palette of reusable components pays off in larger apps. A good rule of thumb is that if a part of your UI is used several times (Button, Panel, Avatar), or is complex enough on its own (App, FeedStory, Comment), it is a good candidate to be extracted to a separate component.
