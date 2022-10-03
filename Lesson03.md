@@ -18,3 +18,9 @@
     Using Properties
     - Get to properties inside class with this.props.propertyName
     - Properties are immutable — cannot change!
+
+    Conditionals in JSX
+        The render() method can return either:
+            - a single valid DOM object (return <div>...</div>)
+            - an array of DOM objects (but don’t do this yet!)
+            - null (undefined is not ok!)
